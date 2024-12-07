@@ -2,7 +2,7 @@
 
 namespace CasoPratico2_G2.Pages.Models
 {
-    public class Juego
+    public class JuegoModel
     {
         public string[,] Tablero { get; private set; }
         public string JugadorActual { get; private set; }
@@ -15,7 +15,7 @@ namespace CasoPratico2_G2.Pages.Models
         private readonly string color1;
         private readonly string color2;
 
-        public Juego(string jugador1, string jugador2, string color1, string color2)
+        public JuegoModel(string jugador1, string jugador2, string color1, string color2)
         {
             Tablero = new string[6, 7];
             this.jugador1 = jugador1;

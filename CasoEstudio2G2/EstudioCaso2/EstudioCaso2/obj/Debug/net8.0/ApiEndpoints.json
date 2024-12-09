@@ -1,0 +1,49 @@
+[
+  {
+    "ContainingType": "EstudioCaso2.Controladores.JuegoController",
+    "Method": "RealizarMovimiento",
+    "RelativePath": "api/Juego/{idJuego}/mover",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idJuego",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "solicitudMovimiento",
+        "Type": "EstudioCaso2.Model.SolicitudMovimiento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EstudioCaso2.Controladores.JuegoController",
+    "Method": "CrearJuego",
+    "RelativePath": "api/Juego/crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "solicitud",
+        "Type": "EstudioCaso2.Model.SolicitudJuego",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EstudioCaso2.Controladores.JuegoController",
+    "Method": "ObtenerHistorialJuegos",
+    "RelativePath": "api/Juego/historial",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

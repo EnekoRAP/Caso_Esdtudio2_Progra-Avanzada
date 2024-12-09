@@ -1,0 +1,6 @@
+@EstudioCaso2_HostAddress = http://localhost:5077
+
+GET {{EstudioCaso2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
